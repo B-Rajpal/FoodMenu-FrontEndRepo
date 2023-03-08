@@ -1,0 +1,56 @@
+.container{
+    padding: 3px 0px 0px 250px ;
+    font-size:30px;
+    font-family:cursive;
+}
+input{
+    width:20vw;
+    height:5vh;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.terms{
+    font-size:30px;
+}
+input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.back{
+    margin:10px 10px;
+    float:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color:grey;
+    border-radius: 20px;
+    height:3vh;
+    width:5vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+.submit{
+    margin:20px 0px;
+    padding-left:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color:grey;
+    height:5vh;
+    width:20vw;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.home .textfield{
+    width:30vw;
+    margin:8px;
+    background-color:darkgrey;
+    border-radius: 5px;
+}
+.home .textfieldedit{
+    width:30vw;
+    margin:10px;
+    background-color:darkgrey;
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+.edit {
+    margin: 20px 20px;
+    float:right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color:grey;
+    border-radius: 20px;
+    height:5vh;
+    width:15vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+#option{
+    margin: 80px 1000px;
+    display:none;
+    position: absolute;
+    background-color: white;
+    width:13vw;
+    height:20vh;
+    border-radius: 10px;
+}
+.options{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#option li{
+    margin-right: 5px;
+    border-bottom:2px solid black;
+    list-style-type:disc;
+    padding:7px;
+}
+#option li:hover{
+    background-color: grey;
+}
+.img_gallery{
+    margin:500px;
+}
+.image_gallery img{
+    height:200px;
+    width:250px;
+    margin:0px 30px 20px 20px;
+}

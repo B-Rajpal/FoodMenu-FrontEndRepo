@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+.login{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color:grey;
+    height:3vh;
+    width:5vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.home{
+    margin:60px 150px;
+    position: relative;
+    background-color: rgb(182, 180, 180);
+    height: 80vh;
+    width: 80vw;
+    border: 5px solid rgb(253, 248, 248);
+    box-shadow: 10px rgb(230, 217, 217);
+    border-radius: 30px;
+}
+.home .navigation{
+    float:right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+.navi .nav {
+    color:black;
+    text-decoration:none;
+}
+.home .navigation li {
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight:200px;
+    display:inline;
+    padding:20px;
+    font-family:sans-serif;
+
+}
+.nav:hover{
+    color:white;
+    cursor: pointer;
+}
+.home .dosa{
+    height:100%;
+    width:50%;
+    float:right;
+    opacity:0.8;
+    object-fit:contain;
+    margin-right:0px;
+}
+.home h1{
+    padding:200px 10px 0px 100px;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home h2{
+    font-variant: small-caps;
+    padding-left: 10px;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home .order {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left:200px;
+    color:white;
+    background-color:grey;
+    border-radius: 20px;
+    height:5vh;
+    width:15vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+.order:hover{
+    color:grey;
+    background-color: white;
+}
+p{
+    padding-top:180px;
+    padding-left: 20px;
+}
